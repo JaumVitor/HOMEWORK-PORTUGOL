@@ -1,0 +1,10 @@
+algoritmo "45"
+var
+   MERCADORIA,ENTRADA,P: INTEIRO
+inicio
+      ESCREVA ("DIGITE VALOR DA MERCADORIA: ")
+      LEIA ( MERCADORIA  )
+      P <- MERCADORIA \ 3
+      ENTRADA <- P + ( MERCADORIA % 3)
+      ESCREVA ("ENTRADA DE:",ENTRADA,"E PRESTAÇÃO DE:", P)
+fimalgoritmo

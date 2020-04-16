@@ -1,0 +1,20 @@
+algoritmo "LIVRO-25"
+var
+ HORAS,MIN, MIN1CONVERTIDOS, TOTAL1MIN ,TOTAL1MIN1SEG : REAL
+inicio
+      ESCREVA ("DIGITE HORAS:")
+      LEIA (HORAS)
+      ESCREVA ("DIGITE MIN: ")
+      LEIA (MIN)
+      ESCREVAL ("===============================")
+      ESCREVAL ("")
+      
+      MIN1CONVERTIDOS <- ( HORAS * 60 )
+      TOTAL1MIN <- ( MIN + MIN1CONVERTIDOS )
+      TOTAL1MIN1SEG <- (TOTAL1MIN *60)
+      
+      ESCREVAL ("MINUNTOS CONVERTIDOS: ",MIN1CONVERTIDOS)
+      ESCREVAL ("TOTAL MIN: ",TOTAL1MIN)
+      ESCREVAL ("TOTAL MIN -> SEGUNDOS: ",TOTAL1MIN1SEG)
+
+fimalgoritmo

@@ -1,0 +1,12 @@
+algoritmo "12"
+var
+   SALMIN,SALFUN,SALARIO: REAL
+inicio
+      ESCREVA ("SALARIO MINIMO: ")
+      LEIA (SALMIN)
+      ESCREVA ("SALARIO DO FUNCIONARIO: ")
+      LEIA (SALFUN)
+      SALARIO <- (SALFUN / SALMIN)
+      
+      ESCREVA ("ESTE RECEBE", SALARIO, " SALARIOS MINIMOS")
+fimalgoritmo
